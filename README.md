@@ -28,7 +28,7 @@ touch config.json
 ```
 
 The config file should be in this format
-```json
+```
 const config = {
   app: {
     port: 3001
