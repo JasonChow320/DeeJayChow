@@ -16,4 +16,18 @@ Here's a list of dependencies you'll need to install in order to run the app
 2. MongoDB
 3. Redis
 
+# Config
+
+Due to security reasons with salting and API keys, the config file is not provided. Please use the following commands and format to create a config directory within src and a config.json file to store all your private server information.  
+
+In server/src directory:  
+'''bash'''
+mkdir -p config
+cd config
+touch config.json
+'''
+
+The config file should be in this format
+'''json'''
+const config = {
 
