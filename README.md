@@ -5,6 +5,8 @@ DeeJayChow (I'm the DJ in this case..) is a full stack application that implemen
 # Dedepency
 
 The app uses the MERN stack (MongoDB, Express, React, NodeJs) and also Redis, therefore if you would like to host the server, you'll need to install all of these dependencies.  
+
+---
 **NOTE!**  
 This app is under development and dependencies are subject to change (or require updates)
 
