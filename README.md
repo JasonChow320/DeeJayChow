@@ -30,4 +30,25 @@ touch config.json
 The config file should be in this format
 ```json
 const config = {
+  app: {
+    port: 3001
+  },
+  db: {
+    host: 'localhost',
+    port: 27017,
+    name: 'DEV'
+  },
+  spotify: {
+    SPOTIFY_CLIENTID: 'insert your api key here',
+    SPOTIFY_SECRETID: 'insert your api key here',
+    
+    callback: 'http://localhost:3001/spotifyapi/callback/'
+  }.
+  crypto: {
+    salt: 'insert your salt here',
+    admin: 'insert your admin password here'
+  }
+};
+
+module.exports = config;
 ```
