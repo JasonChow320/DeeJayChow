@@ -40,5 +40,4 @@ LoginSchema.virtual('getkey')
     this.key = str;
 });
 
-
 const Login = module.exports = mongoose.model('Login', LoginSchema);

@@ -14,7 +14,7 @@ var generateRandomString = function(length) {
 
 // home index
 router.get('/', function(req, res, next) {
-    res.status(200).json({ message: 'Welcome to our 411 Project, this is the API we made'});
+    res.status(200).json({ message: 'This is the admin page, get outta here!'});
 });
 
 router.get('/hello', function(req, res, next){
