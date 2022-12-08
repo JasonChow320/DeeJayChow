@@ -5,7 +5,7 @@ DeeJayChow (I'm the DJ in this case..) is a full stack application that implemen
 # Dedepency
 
 The app uses the MERN stack (MongoDB, Express, React, NodeJs) and also Redis, therefore if you would like to host the server, you'll need to install all of these dependencies.  
-==NOTE==  
+**NOTE!**  
 This app is under development and dependencies are subject to change (or require updates)
 
 ---
@@ -21,13 +21,13 @@ Here's a list of dependencies you'll need to install in order to run the app
 Due to security reasons with salting and API keys, the config file is not provided. Please use the following commands and format to create a config directory within src and a config.json file to store all your private server information.  
 
 In server/src directory:  
-```bash```
+```bash
 mkdir -p config
 cd config
 touch config.json
 ```
 
 The config file should be in this format
-```json```
+```json
 const config = {
-
+```
